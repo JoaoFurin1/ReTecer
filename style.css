@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fcf9f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #6b9b58;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+section {
+  /* margin-bottom removed from aqui pq agora tá na box-verde */
+}
+
+.box-verde {
+  border: 3px solid #4a7042; /* verde escuro */
+  background-color: #d9ead3; /* verde clarinho suave */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(74, 112, 66, 0.3);
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #4a7042;
+  margin-bottom: 10px;
+}
+
+p,
+li {
+  font-size: 1.1em;
+}
+
+ol,
+ul {
+  margin-left: 20px;
+}
+
+.galeria .imagens {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #d2d457;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #7782e9;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+footer {
+  background-color: #6b9b58;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
