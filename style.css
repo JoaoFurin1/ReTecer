@@ -1,0 +1,128 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fcf9f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6b9b58;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #4a7042;
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  resize: vertical;
+}
+
+button {
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e76f51;
+}
+
+.produto {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+  margin-bottom: 15px;
+}
+
+#listaColeta {
+  margin-top: 15px;
+  background: #d4e8d7;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#listaColeta p {
+  margin: 5px 0;
+}
+
+#respostaFeedback {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+footer {
+  background-color: #6b9b58;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
